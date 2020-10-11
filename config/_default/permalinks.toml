@@ -1,0 +1,5 @@
+# see https://gohugo.io/content-management/urls/
+[permalinks]
+posts = "/:year/:month/:slug/"
+leute = "/:section/:slug/"
+tags = "/:section/:slug/"

@@ -1,3 +1,5 @@
+defaultMarkdownHandler = "goldmark"
+
 [goldmark]
 
   [goldmark.extensions]

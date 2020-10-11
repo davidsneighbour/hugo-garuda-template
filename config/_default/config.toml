@@ -34,21 +34,6 @@ verboseLog = true
 # "Error building site: $FILENAME: timed out initializing value. This is most likely a circular loop in a shortcode"
 timeout = "30000"
 
-
-
-##################################################################################
-# Blackfriday configuration
-# see https://gohugo.io/getting-started/configuration/#blackfriday-options
-##################################################################################
-[blackfriday]
-nofollowLinks = true
-noreferrerLinks = true
-plainIDAnchors = true
-extensions = [
-  "laxHtmlBlocks", # laxer block handling... let's see what this does?
-  # "hardLineBreak", # newlines result in line breaks
-]
-
 ##################################################################################
 # Output formats and structure
 ##################################################################################
@@ -78,12 +63,6 @@ baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
-
-# see https://gohugo.io/content-management/urls/
-[permalinks]
-posts = "/:year/:month/:slug/"
-leute = "/:section/:slug/"
-tags = "/:section/:slug/"
 
 [taxonomies]
 tag = "tags"
@@ -182,4 +161,3 @@ params = ["categories", "tags"]
 #############################################################
 [params.redirects]
 netlify = "https://eloquent-morse-196fd2.netlify.com/"
-
