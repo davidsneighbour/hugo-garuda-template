@@ -1,8 +1,5 @@
 #!/bin/bash
 
-NEWVERSION=$(cat "newversion")
-OLDVERSION=$(cat "oldversion")
-
 # push to repo
 git push --follow-tags origin main
 
@@ -12,12 +9,4 @@ IFS='=' read -ra GREN_GITHUB_TOKEN <<<"$GREN_GITHUB_TOKEN"
 GREN_GITHUB_TOKEN=${GREN_GITHUB_TOKEN[1]}
 
 # create release
-gren release --token="$GREN_GITHUB_TOKEN" --tags="$NEWVERSION" --config .grenrc.js
-
-rm newversion
-rm oldversion
-rm releasedatetime
-
-git add CHANGELOG.md
-git commit --amend --no-edit
-git push origin --force
+gren release --token="$GREN_GITHUB_TOKEN" --config .grenrc.js

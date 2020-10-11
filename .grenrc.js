@@ -5,7 +5,6 @@ module.exports = {
     'chore(deps-dev)'
   ],
   "groupBy": {
-    "Theme:": ["theme"],
     "Enhancements:": ["feat"],
     "Bug Fixes:": ["fix"],
     "Chores:": ["refactor", "test", "tests", "chore", "wip"]

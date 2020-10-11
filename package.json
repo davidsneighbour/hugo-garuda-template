@@ -37,7 +37,7 @@
     "postcss2": "postcss public/theme/assets/css/*.css -r",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "preversion": "if [ \"$(git rev-parse --abbrev-ref HEAD)\" = main ] ; then echo Preversion checks passed. ; else echo Error: Not on branch release. ; exit 1 ; fi",
-    "release": "standard-version --release-as patch -a && ./bin/release-hook-postrelease.sh",
+    "release": "standard-version --release-as patch -a -t \"\" && ./bin/release-hook-postrelease.sh",
     "release-next": "standard-version --release-as minor -a",
     "release-major": "standard-version --release-as major -a",
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
