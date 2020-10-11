@@ -1,0 +1,8 @@
+github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201009130754-b3b7cb65ddfb h1:OzISdqEsy4X9wSw5IjNMWqCjtDrIJ+1wVOO3G8BaeOo=
+github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201009130754-b3b7cb65ddfb/go.mod h1:zLPcT18htJzbeL9nf9xCve10y5L6IAom4gn/hSmqWRU=
+github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201009132147-06a2c6f65e61 h1:ehmCUHVFHkxz/RBJGwRWd2IQqmUdKmTDBrHpiXZGOh4=
+github.com/davidsneighbour/dnb-hugo-garuda v0.0.0-20201009132147-06a2c6f65e61/go.mod h1:zLPcT18htJzbeL9nf9xCve10y5L6IAom4gn/hSmqWRU=
+github.com/davidsneighbour/dnb-hugo/packages/netlification v0.0.0-20201008130013-4e2a86cde4ac h1:O2vqeBC40YjiLjjfZ0oysPifupFo41QCHAc+liItZ6s=
+github.com/davidsneighbour/dnb-hugo/packages/netlification v0.0.0-20201008130013-4e2a86cde4ac/go.mod h1:+HP3OEPe40Z3qwLDa/nRrt782iM4RSKbRg8uUxPhxV4=
+github.com/davidsneighbour/dnb-hugo/packages/shortcodes v0.0.0-20201008130013-4e2a86cde4ac h1:2wx2nkmxIk8nl6nP3nCJ7dJU3qirYGZXlKzcw4lJbkc=
+github.com/davidsneighbour/dnb-hugo/packages/shortcodes v0.0.0-20201008130013-4e2a86cde4ac/go.mod h1:Iwlx/MKzL1/FMxMUqqivYOGU7C1oxaezBcZxdCY+KI4=

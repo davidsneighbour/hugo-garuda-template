@@ -1,0 +1,11 @@
+[[imports]]
+path = "github.com/davidsneighbour/dnb-hugo/packages/netlification"
+disabled = false
+
+[[imports]]
+path = "github.com/davidsneighbour/dnb-hugo-garuda"
+disabled = false
+
+[[imports]]
+path = "github.com/davidsneighbour/dnb-hugo/packages/shortcodes"
+disabled = false
