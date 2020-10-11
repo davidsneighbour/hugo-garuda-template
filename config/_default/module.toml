@@ -1,11 +1,22 @@
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo/packages/netlification"
-disabled = false
+  path = "github.com/davidsneighbour/dnb-hugo/packages/netlification"
+  disabled = false
+  ignoreConfig = false
 
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo-garuda"
-disabled = false
+  path = "github.com/davidsneighbour/dnb-hugo-garuda"
+  disabled = false
+  ignoreConfig = false
 
 [[imports]]
-path = "github.com/davidsneighbour/dnb-hugo/packages/shortcodes"
-disabled = false
+  path = "github.com/davidsneighbour/dnb-hugo/packages/shortcodes"
+  disabled = false
+  ignoreConfig = false
+
+[[imports]]
+  path = "github.com/kaushalmodi/hugo-debugprint"
+  disabled = false
+
+[[imports.mounts]]
+  source = "webfonts"
+  target = "assets/webfonts"

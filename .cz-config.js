@@ -5,56 +5,14 @@
 module.exports = {
 
   types: [
+    { value: 'content', name: 'content:  Content changes' },
     { value: 'feat', name: 'feat:     A new feature' },
     { value: 'fix', name: 'fix:      A bug fix' },
-    { value: 'theme', name: 'theme:    Design and Theme changes' },
     { value: 'refactor', name: 'refactor: A code change that neither fixes a bug nor adds a feature' },
     { value: 'test', name: 'test:     Adding missing tests' },
     { value: 'chore', name: 'chore:    Changes to the build process or documentation generation' },
     { value: 'wip', name: 'WIP:      Work in progress' }
   ],
-
-  scopes: [
-    { name: 'accounting' },
-    { name: 'agencies' },
-    { name: 'bookings' },
-    { name: 'customers' },
-    { name: 'reporting' },
-    { name: 'tours' },
-    { name: 'users' },
-    { name: 'api' },
-    { name: 'vue' },
-    { name: 'cli' },
-    { name: 'interface' },
-    { name: 'options' },
-    { name: 'notifications' },
-    { name: 'javascript' },
-    { name: 'tracking' }
-  ],
-
-  scopeOverrides: {
-    theme: [],
-    refactor: [
-      { name: 'codequality' },
-      { name: 'api' },
-      { name: 'interface' },
-      { name: 'javascript' }
-    ],
-    test: [
-      { name: 'unit' },
-      { name: 'nightwatch' },
-      { name: 'browser' },
-      { name: 'api' },
-      { name: 'acceptance' },
-    ],
-    chore: [
-      { name: 'deps' },
-      { name: 'dev-deps' },
-      { name: 'git' },
-      { name: 'ide' },
-      { name: 'qi' }
-    ]
-  },
 
   messages: {
     type: 'Select the type of change that you are committing:',

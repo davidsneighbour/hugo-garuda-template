@@ -27,17 +27,14 @@ title = "Samui? Samui!"
 verbose = false
 verboseLog = true
 
-#############################################################
-# Theme setup
-#############################################################
-theme = ["hugo-debugprint"]
-
 ##################################################################################
 # Bugfixes and Troubleshooting
 ##################################################################################
 # workaround for time out error on netlify
 # "Error building site: $FILENAME: timed out initializing value. This is most likely a circular loop in a shortcode"
 timeout = "30000"
+
+
 
 ##################################################################################
 # Blackfriday configuration
@@ -113,49 +110,6 @@ priority = 0.8
 name = "Patrick Kollitsch"
 homepage = "https://kollitsch.de/"
 
-#############################################################
-# Privacy setup
-#############################################################
-[privacy]
-[privacy.disqus]
-disable = false
-[privacy.googleAnalytics]
-anonymizeIP = true
-disable = false
-respectDoNotTrack = true
-useSessionStorage = true
-[privacy.instagram]
-disable = false
-simple = false
-disableInlineCSS = true
-[privacy.twitter]
-disable = false
-enableDNT = true
-simple = true
-disableInlineCSS = true
-[privacy.vimeo]
-disable = false
-simple = false
-[privacy.youtube]
-disable = false
-privacyEnhanced = false
-
-#############################################################
-# Imaging setup
-#############################################################
-[imaging]
-# Default resample filter used for resizing. Default is Box,
-# a simple and fast averaging filter appropriate for downscaling.
-# See https://github.com/disintegration/imaging
-resampleFilter = "lanczos"
-# Default JPEG quality setting. Default is 75.
-quality = 85
-# Anchor used when cropping pictures.
-# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
-# Smart Cropping is content aware and tries to find the best crop for each image.
-# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-anchor = "smart"
-
 [params.imaging]
 sizes = ["825","610","510","450"]
 
@@ -229,36 +183,3 @@ params = ["categories", "tags"]
 [params.redirects]
 netlify = "https://eloquent-morse-196fd2.netlify.com/"
 
-#############################################################
-# Social Media Setup
-#############################################################
-[params.social.facebook]
-profileid = "517050641"    # patrick.kollitsch
-pageid = "6967849771"      # samuisamui
-appid = "2047624572136513" # samui-samui.de
-profileslug = "patrick.kollitsch"
-
-[params.social.twitter]
-profileid = "davidsneighbour"
-siteid = "samui2"
-theme ="dark"
-linkcolor = "#d02d19"
-dnt = "on"
-csp = "on"
-
-[params.social.snapchat]
-profileid = "pkollitsch"
-
-[params.social.whatsapp]
-profileid = "66878979350"
-
-#############################################################
-# Staticman Setup
-#############################################################
-[params.staticman]
-enabled = true
-instance = "https://dnb-staticman.herokuapp.com/v3/entry"
-provider = "github"
-repo = "davidsneighbour/samui-samui.de"
-branch = "comments"
-property = "comments"

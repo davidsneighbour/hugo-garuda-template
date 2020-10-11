@@ -1,8 +1,8 @@
 {
   "name": "dnb-hugo-garuda-template",
   "slug": "dnb-hugo-garuda-template",
-  "url": "https://samui-samui.de",
-  "version": "2020.2.5",
+  "url": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
+  "version": "2020.0.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -15,20 +15,17 @@
       "web": "https://davids-neighbour.com"
     }
   ],
-  "description": "Hugo files for samui-samui.de",
-  "homepage": "http://samui-samui.de",
-  "license": "UNLICENSED",
+  "description": "A template repository for the DNB Hugo Garuda theme",
+  "homepage": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
+  "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidsneighbour/samui-samui.de.git"
+    "url": "https://github.com/davidsneighbour/dnb-hugo-garuda-template.git"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": ".cz-config.js"
     }
   },
   "scripts": {

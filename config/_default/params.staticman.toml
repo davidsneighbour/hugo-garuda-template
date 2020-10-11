@@ -1,0 +1,9 @@
+#############################################################
+# Staticman Setup
+#############################################################
+enabled = false
+instance = "https://dnb-staticman.herokuapp.com/v3/entry"
+provider = "github"
+repo = "davidsneighbour/samui-samui.de"
+branch = "comments"
+property = "comments"
