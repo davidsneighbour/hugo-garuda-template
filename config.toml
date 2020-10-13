@@ -271,7 +271,6 @@ netlify = "https://eloquent-morse-196fd2.netlify.com/"
   branch = "comments"
   property = "comments"
 
-[params]
 [params.dnb]
 ################################################################################
 # DNB Hugo Garuda settings
