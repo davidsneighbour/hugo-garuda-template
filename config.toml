@@ -2,7 +2,7 @@
 # Site setup
 # see https://gohugo.io/getting-started/configuration/
 #############################################################
-baseURL = "https://dnb-hugo-garuda.netlify.app/"       # hostname & path to the root
+baseURL = "/"       # hostname & path to the root
 defaultContentLanguage = "de"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.
 enableEmoji = true                        # see https://www.webfx.com/tools/emoji-cheat-sheet/
