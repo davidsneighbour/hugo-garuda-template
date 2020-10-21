@@ -2,27 +2,17 @@
   "name": "dnb-hugo-garuda-template",
   "slug": "dnb-hugo-garuda-template",
   "url": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
-  "version": "2020.0.3",
+  "version": "0.0.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "contributors": [
-    {
-      "name": "Patrick Kollitsch",
-      "email": "patrick@davids-neighbour.com",
-      "web": "https://davids-neighbour.com"
-    }
-  ],
   "description": "A template repository for the DNB Hugo Garuda theme",
   "homepage": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
   "license": "MIT",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/davidsneighbour/dnb-hugo-garuda-template.git"
-  },
+  "repository": "davidsneighbour/dnb-hugo-garuda-template",
   "config": {
     "commitizen": {
       "path": "node_modules/cz-customizable"
@@ -30,16 +20,13 @@
   },
   "scripts": {
     "algolia": "hugo --quiet && atomic-algolia && rm -rf public",
-    "css": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/scss/default.scss -o public/theme/assets/css/ ",
-    "css2": "node-sass -q --include-path public/javascripts/node_modules --output-style compressed --precision 6 assets/scss/ -o public/theme/assets/css/ ",
-    "build-changelog": "./bin/create-changelog.sh > CHANGELOG.md",
     "postcss": "postcss public/theme/assets/css/default.css -r",
     "postcss2": "postcss public/theme/assets/css/*.css -r",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "preversion": "if [ \"$(git rev-parse --abbrev-ref HEAD)\" = main ] ; then echo Preversion checks passed. ; else echo Error: Not on branch release. ; exit 1 ; fi",
-    "release": "standard-version --release-as patch -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
     "hugo": "hugo --i18n-warnings --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --enableGitInfo --log true --logFile hugo.log --verbose",
     "hugo-update": "hugo mod get -u ./... && hugo mod tidy"
@@ -48,13 +35,16 @@
     "atomic-algolia": "0.3.19",
     "autoprefixer": "10.0.1",
     "bootstrap": "4.5.2",
+    "commitizen": "4.2.1",
     "cssnano": "4.1.10",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
-    "postcss": "8.1.1",
+    "cz-customizable-ghooks": "2.0.0",
+    "pixrem": "5.0.0",
+    "postcss": "^8.1.1",
     "postcss-cli": "8.1.0",
-    "standard-version": "9.0.0",
-    "github-release-notes": "^0.17.3"
+    "precss": "4.0.0",
+    "standard-version": "9.0.0"
   },
   "standard-version": {
     "skip": {
