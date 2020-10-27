@@ -23,7 +23,7 @@ refLinksErrorLevel = "WARNING"
 refLinksNotFoundURL = "/404.html"
 rssLimit = 10
 summaryLength = 150                       # the length of text to show in a .Summary
-title = "Samui? Samui!"
+title = "Garuda!"
 verbose = false
 verboseLog = true
 
