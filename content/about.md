@@ -1,7 +1,11 @@
-+++
-title = "About Hugo"
-date = "2014-04-09"
-+++
+---
+title: About Hugo
+date: 2020-11-08
+menu:
+  main:
+    title: About Hugo
+    weight: 200
+---
 
 Hugo is the **world’s fastest framework for building websites**. It is written in Go.
 
