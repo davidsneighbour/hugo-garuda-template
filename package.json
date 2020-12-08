@@ -1,7 +1,7 @@
 {
   "name": "dnb-hugo-garuda-template",
   "slug": "dnb-hugo-garuda-template",
-  "url": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
+  "url": "https://github.com/dnb-hugo/garuda-template",
   "version": "1.0.6",
   "author": {
     "name": "Patrick Kollitsch",
@@ -9,10 +9,10 @@
     "web": "https://davids-neighbour.com"
   },
   "description": "A template repository for the DNB Hugo Garuda theme",
-  "homepage": "https://github.com/davidsneighbour/dnb-hugo-garuda-template",
+  "homepage": "https://github.com/dnb-hugo/garuda-template",
   "license": "MIT",
   "private": true,
-  "repository": "davidsneighbour/dnb-hugo-garuda-template",
+  "repository": "dnb-hugo/garuda-template",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
@@ -25,7 +25,8 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "serve": "hugo server --disableFastRender --i18n-warnings --navigateToChanged  --templateMetrics --templateMetricsHints --verbose --verboseLog --path-warnings --buildDrafts --buildExpired --buildFuture --watch --enableGitInfo --forceSyncStatic --log true --logFile hugo.log --verbose",
-    "commitlint": "commitlint --from=HEAD~1"
+    "commitlint": "commitlint --from=HEAD~1",
+    "lint-md": "remark --ignore-path .gitignore content"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",

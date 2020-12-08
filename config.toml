@@ -185,10 +185,10 @@ notAlternative = true
 [module]
 
 [[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo/netlification"
+path = "github.com/dnb-hugo/components/netlification"
 
 [[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo-garuda"
+path = "github.com/dnb-hugo/garuda"
 
 #############################################################
 # Site params
