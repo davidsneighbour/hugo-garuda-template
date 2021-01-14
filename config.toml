@@ -185,10 +185,16 @@ notAlternative = true
 [module]
 
 [[module.imports]]
+path = "github.com/dnb-hugo/components/favicon"
+disabled = false
+
+[[module.imports]]
 path = "github.com/dnb-hugo/components/netlification"
+disabled = false
 
 [[module.imports]]
 path = "github.com/dnb-hugo/garuda"
+disabled = false
 
 #############################################################
 # Site params
@@ -282,12 +288,9 @@ javascript = "local-changes.js"
 # sidebar setup
 [params.dnb.sidebar]
 enabled = true
-items = [ "author", "archive", "recent", "social" ]
-[params.dnb.sidebar.author]
-content = "authorfooter"
+items = ["archive", "recent" ]
 [params.dnb.sidebar.recent]
 limit = 5
-[params.dnb.sidebar.social]
 [params.dnb.sidebar.archive]
 
 [params.dnb.footer.index]

@@ -1,0 +1,71 @@
+headers = [
+  "Link: <https://www.google-analytics.com/>; rel=preconnect",
+  "Link: <https://www.google-analytics.com/>; rel=dns-prefetch"
+]
+
+[csp]
+# https://content-security-policy.com/
+# https://report-uri.com/account/setup/
+defaultSrc = [
+  "'self'",
+  "googleads.g.doubleclick.net"
+]
+scriptSrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "*.cloudfront.net",
+  "utteranc.es",
+  "pagead2.googlesyndication.com",
+  "storage.googleapis.com",
+  "googleads.g.doubleclick.net",
+  "ajax.googleapis.com",
+  "www.google-analytics.com",
+  "www.google.com",
+  "www.gstatic.com",
+  "unpkg.com",
+  "identity.netlify.com",
+  "www.googletagmanager.com"
+]
+styleSrc = [
+  "'self'",
+  "'sha256-LIGYGMlmPiMJ9yubTCG9ZZhCLHSkhDtf75TLl5p0zgg='" # spotify radio widget
+]
+imgSrc = [
+  "'self'",
+  "data: www.google-analytics.com",
+  "*.cloudfront.net",
+  "i.ytimg.com"
+]
+connectSrc = [
+  "'self'",
+  "*.algolia.net",
+  "*.algolianet.com",
+  "www.clarity.ms",
+  "www.google-analytics.com"
+]
+frameSrc = [
+  "'self'",
+  "utteranc.es",
+  "www.google.com",
+  "www.youtube.com",
+  "www.youtube-nocookie.com",
+  "googleads.g.doubleclick.net",
+  "open.spotify.com"
+]
+frameAncestors = [
+  "'none'"
+]
+manifestSrc = [
+  "'self'"
+]
+fontSrc = [
+  "'self'",
+  "fonts.googleapis.com"
+]
+objectSrc = [
+  "'self'"
+]
+upgradeInsecureRequests = true
+
+[[redirects]]
+netlify = "https://eloquent-morse-196fd2.netlify.com/"

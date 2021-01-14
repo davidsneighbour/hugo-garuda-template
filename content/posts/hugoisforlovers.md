@@ -7,7 +7,6 @@ tags = [
     "development",
 ]
 date = 2014-04-02
-series = "Hugo 101"
 +++
 
 ## Step 1. Install Hugo
