@@ -1,0 +1,119 @@
+#############################################################
+# Site params
+#############################################################
+## [params]
+version = "2019.2.159"
+debug = false
+mainSections = ["posts"]
+
+# social media setup
+og_image = ""
+og_image_url = ""
+githubName = ""
+
+# content particles
+siteslug = "garuda-garuda"
+description = "An opiniated colorful weblog theme for Hugo..."
+copyright = "Made with [DNB Hugo Garuda](https://github.com/dnb-hugo/garuda) on [Hugo](https://gohugo.io/)."
+
+# design elements
+sitecolor = "#d02d19"
+
+#############################################################
+# Google Adsense
+#############################################################
+[google]
+adclientid = "pub-9026195124322857"
+
+#############################################################
+# Search Setup
+#############################################################
+[algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"]
+
+[opensearch]
+# https://github.com/dewitt/opensearch/blob/master/opensearch-1-1-draft-6.md
+
+#############################################################
+# Search Setup
+#############################################################
+[redirects]
+netlify = "https://eloquent-morse-196fd2.netlify.com/"
+
+#############################################################
+# Social Media Setup
+#############################################################
+[social.facebook]
+profileid = "517050641"    # patrick.kollitsch
+pageid = "6967849771"      # samuisamui
+appid = "2047624572136513" # samui-samui.de
+profileslug = "patrick.kollitsch"
+
+[social.twitter]
+profileid = "davidsneighbour"
+siteid = "samui2"
+theme ="dark"
+linkcolor = "#d02d19"
+dnt = "on"
+csp = "on"
+
+[social.snapchat]
+profileid = "pkollitsch"
+
+[social.whatsapp]
+profileid = "66878979350"
+
+#############################################################
+# Staticman Setup
+#############################################################
+[staticman]
+enabled = true
+instance = "https://dnb-staticman.herokuapp.com/v3/entry"
+provider = "github"
+repo = "davidsneighbour/samui-samui.de"
+branch = "comments"
+property = "comments"
+
+[dnb]
+################################################################################
+# DNB Hugo Garuda settings
+################################################################################
+# theme selection.
+# this slug is used to create headers and add custom files to the pipelines to
+# create your individualised theme setup.
+theme_slug="garuda"
+# Add your custom javascript files to the js creation pipe. only filename is
+# allowed in this parameter. The file needs to be in the folder `/assets/js/` in
+# your root folder.
+javascript = "local-changes.js"
+# sidebar setup
+[dnb.sidebar]
+enabled = true
+items = ["archive", "recent" ]
+[dnb.sidebar.recent]
+limit = 5
+[dnb.sidebar.archive]
+
+[dnb.footer.index]
+enabled = true
+items = [ "tagcloud" ]
+[dnb.footer.single]
+enabled = false
+[dnb.footer.tagcloud]
+enabled = true
+type = "cloud"
+values = "tags"
+
+[dnb.setup]
+enable-code = true
+enable-dropdowns = false
+enable-popups = false
+
+
+[params.imaging]
+sizes = ["825","610","510","450"]
+
+
+
+
