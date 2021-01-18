@@ -1,5 +1,11 @@
+################################################################################
+# Output formats and structure
 ## [outputFormats]
-
+################################################################################
+# see
+# http://gohugo.io/templates/output-formats/
+# https://gohugo.io/news/http2-server-push-in-hugo/
+################################################################################
 [Algolia]
 baseName = "algolia"
 isPlainText = true

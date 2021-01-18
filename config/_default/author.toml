@@ -1,5 +1,14 @@
-#############################################################
-# Author
-#############################################################
-name = "Patrick Kollitsch"
-homepage = "https://kollitsch.de/"
+################################################################################
+# Author setup
+## [author]
+################################################################################
+name = "Jane Doe"
+homepage = "https://example.com/jane-doe/"
+content = "sitewide/authorfooter/index.md"
+
+[photo]
+name = "jane-doe.jpg"
+title = "Jane Doe the totally famous author"
+
+[format]
+layout = "card"

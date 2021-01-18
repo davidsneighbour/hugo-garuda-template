@@ -1,7 +1,10 @@
-#############################################################
+################################################################################
 # Site setup
-# see https://gohugo.io/getting-started/configuration/
-#############################################################
+## root setup
+################################################################################
+# see
+# https://gohugo.io/getting-started/configuration/
+################################################################################
 baseURL = "/"       # hostname & path to the root
 defaultContentLanguage = "en"
 disableHugoGeneratorInject = true         # we do that proudly on each page in the footer. visible.

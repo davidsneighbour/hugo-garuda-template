@@ -1,4 +1,9 @@
-# see https://gohugo.io/content-management/urls/
+################################################################################
+# Permalink setup
 ## [permalinks]
+################################################################################
+# see
+# .https://gohugo.io/content-management/urls/
+################################################################################
 posts = "/:year/:month/:slug/"
 tags = "/:section/:slug/"

@@ -1,8 +1,10 @@
-#############################################################
-# Site params
-#############################################################
+################################################################################
+# Site parameters
 ## [params]
-version = "2019.2.159"
+################################################################################
+# see
+# ...
+################################################################################
 debug = false
 mainSections = ["posts"]
 
@@ -90,10 +92,9 @@ javascript = "local-changes.js"
 # sidebar setup
 [dnb.sidebar]
 enabled = true
-items = ["archive", "recent" ]
+items = ["author", "archive", "recent" ]
 [dnb.sidebar.recent]
 limit = 5
-[dnb.sidebar.archive]
 
 [dnb.footer.index]
 enabled = true
