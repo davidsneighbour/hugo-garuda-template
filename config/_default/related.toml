@@ -3,7 +3,7 @@
 ## [related]
 ################################################################################
 # see
-# ...
+# https://gohugo.io/content-management/related/#configure-related-content
 ################################################################################
 threshold = 80 # Only include matches with rank >= threshold. 0 and 100.
 includeNewer = true # adding newer articles to older ones (changing the content)

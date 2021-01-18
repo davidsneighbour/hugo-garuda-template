@@ -3,7 +3,11 @@
 ## [sitemap]
 ################################################################################
 # see
-# ...
+# https://gohugo.io/templates/sitemap-template/#configure-sitemapxml
+################################################################################
+# The same fields can be specified in an individual content file’s front matter
+# in order to override the value assigned to that piece of content at render
+# time.
 ################################################################################
 changefreq = "weekly"
 filename = "sitemap.xml"

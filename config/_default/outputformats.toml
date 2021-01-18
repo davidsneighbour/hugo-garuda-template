@@ -3,7 +3,7 @@
 ## [outputFormats]
 ################################################################################
 # see
-# http://gohugo.io/templates/output-formats/
+# https://gohugo.io/templates/output-formats/
 # https://gohugo.io/news/http2-server-push-in-hugo/
 ################################################################################
 [Algolia]

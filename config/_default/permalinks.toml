@@ -3,7 +3,7 @@
 ## [permalinks]
 ################################################################################
 # see
-# .https://gohugo.io/content-management/urls/
+# https://gohugo.io/content-management/urls/
 ################################################################################
 posts = "/:year/:month/:slug/"
 tags = "/:section/:slug/"

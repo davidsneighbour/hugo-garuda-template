@@ -1,0 +1,11 @@
+################################################################################
+# Frontmatter setup
+## [frontmatter]
+################################################################################
+# see
+# https://gohugo.io/getting-started/configuration/#configure-front-matter
+################################################################################
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]

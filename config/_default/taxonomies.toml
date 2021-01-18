@@ -3,7 +3,7 @@
 ## [taxonomies]
 ################################################################################
 # see
-# ...
+# https://gohugo.io/content-management/taxonomies/#configuring-taxonomies
 ################################################################################
 tag = "tags"
-feiertag = "feiertage"
+category = "categories"

@@ -2,6 +2,8 @@
 # Author setup
 ## [author]
 ################################################################################
+# there is no link ;) this is a weird configuration
+################################################################################
 name = "Jane Doe"
 homepage = "https://example.com/jane-doe/"
 content = "sitewide/authorfooter/index.md"

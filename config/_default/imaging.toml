@@ -3,11 +3,13 @@
 ## [imaging]
 ################################################################################
 # see
-# https://github.com/disintegration/imaging
+# https://gohugo.io/content-management/image-processing/#image-processing-config
 ################################################################################
 # Default resample filter used for resizing. Default is Box,
 # a simple and fast averaging filter appropriate for downscaling.
-# See https://github.com/disintegration/imaging
+# See
+# https://github.com/disintegration/imaging
+################################################################################
 resampleFilter = "lanczos"
 # Default JPEG quality setting. Default is 75.
 quality = 85

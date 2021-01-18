@@ -3,7 +3,7 @@
 ## [pricacy]
 ################################################################################
 # see
-# ...
+# https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings
 ################################################################################
 [disqus]
 disable = false
@@ -27,6 +27,7 @@ disableInlineCSS = true
 
 [vimeo]
 disable = false
+enableDNT = true
 simple = false
 
 [youtube]
