@@ -2,6 +2,7 @@
 /package-lock.json
 hugo.log
 hint-report
+/bin/replacements
 
 /data/dnb/webpack/*
 !/data/dnb/webpack/.keep
