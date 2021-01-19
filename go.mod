@@ -6,5 +6,5 @@ require (
 	github.com/dnb-hugo/components/favicon v1.0.9 // indirect
 	github.com/dnb-hugo/components/netlification v1.1.6 // indirect
 	github.com/dnb-hugo/components/renderhooks v1.0.7 // indirect
-	github.com/dnb-hugo/garuda v1.4.49 // indirect
+	github.com/dnb-hugo/garuda v1.4.51 // indirect
 )
