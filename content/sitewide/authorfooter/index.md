@@ -9,4 +9,8 @@ _build:
   publishResources: false
 ---
 
-Jane Doe is an incredible famous author, social media influencer and TikTok personality. After an arduous and lonesome childhood she made it big by pretending to know stuff and writing it down. She likes dogs and Star Trek. Star Trek beats Star Wars. Just in case you were wondering...
+Aesop (c. 620–564 BCE) was a Greek fabulist and storyteller credited with a number of fables now collectively known as Aesop's Fables. 
+
+Although his existence remains unclear and no writings by him survive, numerous tales credited to him were gathered across the centuries and in many languages in a storytelling tradition that continues to this day.
+
+Many of the tales are characterized by animals and inanimate objects that speak, solve problems, and generally have human characteristics.

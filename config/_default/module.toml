@@ -16,3 +16,7 @@ disabled = false
 [[imports]]
 path = "github.com/dnb-hugo/garuda"
 disabled = false
+
+[[imports]]
+path = "github.com/dnb-hugo/testcontent/aesops-fables"
+disabled = false

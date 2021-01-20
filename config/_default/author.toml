@@ -4,13 +4,13 @@
 ################################################################################
 # there is no link ;) this is a weird configuration
 ################################################################################
-name = "Jane Doe"
-homepage = "https://example.com/jane-doe/"
+name = "Aesop"
+homepage = "https://en.wikipedia.org/wiki/Aesop"
 content = "sitewide/authorfooter/index.md"
 
 [photo]
-name = "jane-doe.jpg"
-title = "Jane Doe the totally famous author"
+name = "aesop.jpg"
+title = "Aesop the Greek"
 
 [format]
 layout = "card"
