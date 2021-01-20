@@ -7,4 +7,5 @@ require (
 	github.com/dnb-hugo/components/netlification v1.1.6 // indirect
 	github.com/dnb-hugo/components/renderhooks v1.0.7 // indirect
 	github.com/dnb-hugo/garuda v1.4.51 // indirect
+	github.com/dnb-hugo/testcontent/aesops-fables v0.0.2 // indirect
 )

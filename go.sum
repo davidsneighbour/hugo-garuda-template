@@ -17,6 +17,8 @@ github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1/go.mod h1:sgKUgwtMNDl9TEalh
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
 github.com/dnb-hugo/shortcodes v1.1.11/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/testcontent/aesops-fables v0.0.2 h1:v4eDpxF+gfGdUvY6IIgQ2sRn3CYCJhyIXqWY4sKNyaQ=
+github.com/dnb-hugo/testcontent/aesops-fables v0.0.2/go.mod h1:CV1zA/r+N7102HKPxiFn0c8l1LYXoDOfZCfkk7i54XE=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
