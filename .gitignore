@@ -3,6 +3,7 @@
 hugo.log
 hint-report
 /bin/replacements
+/assets/jsconfig.json
 
 /data/dnb/webpack/*
 !/data/dnb/webpack/.keep
