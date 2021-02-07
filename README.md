@@ -1,3 +1,3 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a6b086a2-acaf-445d-aadf-956940cdb60c/deploy-status)](https://app.netlify.com/sites/dnb-hugo-garuda/deploys)
 
-Read [everything about the setup and configuration of this template on the themes wiki](/dnb-hugo/garuda/wiki/DNB-Hugo-Garuda-Template).
+Read [everything about the features, setup and configuration of this template in the Garuda theme documentation](https://github.com/dnb-hugo/garuda#readme).

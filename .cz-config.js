@@ -5,6 +5,7 @@
 module.exports = {
 
   types: [
+    { value: 'content', name: 'content:    New or changed content' },
     { value: 'feat', name: 'feat:     A new feature' },
     { value: 'fix', name: 'fix:      A bug fix' },
     { value: 'layouts', name: 'layouts:    Design and Theme changes' },
@@ -14,11 +15,13 @@ module.exports = {
     { value: 'wip', name: 'WIP:      Work in progress' }
   ],
 
-  scopes: [
-  ],
+  scopes: [],
 
   scopeOverrides: {
-    theme: [],
+    content: [
+      { name: 'new' },
+      { name: 'modification' }
+    ],
     refactor: [
       { name: 'codequality' },
       { name: 'api' },
