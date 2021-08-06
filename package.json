@@ -42,7 +42,7 @@
     "webpack-merge": "5.8.0",
     "workbox-precaching": "6.1.5",
     "workbox-routing": "6.1.5",
-    "workbox-strategies": "6.1.5",
+    "workbox-strategies": "6.2.0",
     "workbox-webpack-plugin": "6.1.5"
   },
   "homepage": "https://samui-samui.de",
