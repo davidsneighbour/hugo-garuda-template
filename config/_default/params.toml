@@ -16,7 +16,7 @@ githubName = ""
 # content particles
 siteslug = "garuda-garuda"
 description = "An opiniated colorful weblog theme for Hugo..."
-copyright = "Made with [DNB Hugo Garuda](https://github.com/dnb-hugo/garuda) on [Hugo](https://gohugo.io/)."
+copyright = "Made with [DNB Hugo Garuda](https://github.com/davidsneighbour/garuda) on [Hugo](https://gohugo.io/)."
 
 # design elements
 sitecolor = "#d02d19"

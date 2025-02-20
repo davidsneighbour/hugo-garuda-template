@@ -6,17 +6,17 @@
 # https://gohugo.io/hugo-modules/configuration/#module-config-imports
 ################################################################################
 [[imports]]
-path = "github.com/dnb-hugo/components/favicon"
+path = "github.com/davidsneighbour/components/favicon"
 disabled = false
 
 [[imports]]
-path = "github.com/dnb-hugo/components/netlification"
+path = "github.com/davidsneighbour/components/netlification"
 disabled = false
 
 [[imports]]
-path = "github.com/dnb-hugo/garuda"
+path = "github.com/davidsneighbour/garuda"
 disabled = false
 
 [[imports]]
-path = "github.com/dnb-hugo/testcontent/aesops-fables"
+path = "github.com/davidsneighbour/testcontent/aesops-fables"
 disabled = false
