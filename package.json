@@ -18,7 +18,7 @@
     "@davidsneighbour/eslint-config": "2025.0.1",
     "@davidsneighbour/remark-config": "2025.0.1",
     "@davidsneighbour/release-config": "2025.0.1",
-    "@davidsneighbour/stylelint-config": "2025.0.1",
+    "@davidsneighbour/stylelint-config": "2025.2.3",
     "@davidsneighbour/webpack-config": "2025.0.1",
     "@hint/configuration-development": "8.3.20",
     "atomic-algolia": "0.3.19",
