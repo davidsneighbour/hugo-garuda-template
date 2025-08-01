@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "@davidsneighbour/browserslist-config": "2025.0.1",
+    "@davidsneighbour/browserslist-config": "2025.3.0",
     "@davidsneighbour/commitlint-config": "2025.0.1",
     "@davidsneighbour/eslint-config": "2025.0.1",
     "@davidsneighbour/remark-config": "2025.0.1",
